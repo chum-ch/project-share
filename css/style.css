@@ -21,11 +21,6 @@ nav {
 }
 
 
-@media(max-width:995px) {
-  .sign_up {
-    margin-top: 10px;
-  }
-}
 .gird-top{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -46,3 +41,10 @@ nav {
   grid-template-columns: repeat(4,1fr);
   grid-gap:10px;
 }
+
+
+@media(max-width:995px) {
+    .sign_up {
+      margin-top: 10px;
+    }
+  }
