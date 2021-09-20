@@ -26,3 +26,19 @@ nav {
     margin-top: 10px;
   }
 }
+.gird{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:10px;
+  grid-template-areas: " left left right right";
+}
+.main-grid{
+  background: orange;
+  height:20vh ;
+}
+.content-gird{
+  grid-area:left ;
+}
+.gird-right{
+  grid-area: right;
+}
