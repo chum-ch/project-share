@@ -26,19 +26,23 @@ nav {
     margin-top: 10px;
   }
 }
-.gird{
+.gird-top{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:10px;
+}
+.main-grid-tp{
+  background: orange;
+  height:60vh ;
+}
+.main-gird-bt{
+  height: 50vh;
+  background: gray;
+}
+
+.gird-bt{
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap:10px;
-  grid-template-areas: " left left right right";
-}
-.main-grid{
-  background: orange;
-  height:20vh ;
-}
-.content-gird{
-  grid-area:left ;
-}
-.gird-right{
-  grid-area: right;
 }
