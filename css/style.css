@@ -10,10 +10,6 @@ nav {
   position: relative;
   z-index: -999;
 }
-/* .stock {
-  border-radius: 20px;
-  padding: 4px;
-} */
 .start {
   background: url("../img/food1.jpg") no-repeat;
   height: 300px;
@@ -24,22 +20,22 @@ nav {
 .gird-top{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap:10px;
+  grid-gap: 16px;
 }
-.main-grid-tp{
+.background1{
   background: orange;
-  height:60vh ;
-}
-.main-gird-bt{
-  height: 50vh;
-  background: gray;
 }
 
+.main-grid{
+  width: 100%;
+}
 .gird-bt{
-  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  grid-gap:10px;
+  grid-gap: 16px;
+}
+.background2 {
+  background: gray;
 }
 
 
