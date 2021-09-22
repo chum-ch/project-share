@@ -39,12 +39,6 @@ nav {
   background: gray;
 }
 
-
-@media(max-width:995px) {
-    .sign_up {
-      margin-top: 10px;
-    }
-  }
 /* footer */
 footer{
   background: #000;
@@ -62,3 +56,8 @@ footer li a {
   color: #fff;
   text-decoration: none;
 }
+@media(max-width:995px) {
+    .sign_up {
+      margin-top: 10px;
+    }
+  }
