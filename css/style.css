@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
+.text-success
+{
+  font-family: 'Moulpali', cursive;
+}
 button {
   background: green;
 }
 nav {
   background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
 }
-.brand {
+.brand, .food-name, .btn {
   font-family: 'Bayon', sans-serif;
 }
+
 .kind-food {
   position: relative;
   z-index: -999;
@@ -23,22 +29,78 @@ nav {
   grid-template-columns: repeat(3,1fr);
   grid-gap: 16px;
 }
-.background1{
-  background: orange;
-}
 
 .main-grid{
   width: 100%;
 }
+
 .gird-bt{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 16px;
+  margin-top: 20px;
 }
-.background2 {
-  background: gray;
+.main-grid img
+{
+  border-radius: 20px;
 }
 
+.food-name 
+{
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 22px;
+}
+.fons-18
+{
+  font-size: 18px;
+}
+.food-name span
+{
+  color: green;
+}
+.main-grid  .btn
+{
+  background: green;
+  padding: 8px 20px;
+  margin-left: 10px;
+  color: #ffff;
+  font-size: 16px;
+  transition: 1s ease-in-out;
+}
+.main-grid  .btn:hover
+{
+  background: none;
+  color: green;
+  border: 1px solid green;
+}
+.padd-4
+{
+  padding: 2px 20px;
+  font-size: 16px;
+}
+.click-icon
+{
+  position: relative;
+  top: -60px;
+  margin-left: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+.fa-heart:hover
+{
+  color: red;
+}
+.fa-thumbs-up:hover
+{
+  color: blue;
+}
+
+.ml-right
+{
+  float: right;
+  margin-right: 20px;
+}
 /* footer */
 footer{
   background: #000;
@@ -59,5 +121,13 @@ footer li a {
 @media(max-width:995px) {
     .sign_up {
       margin-top: 10px;
+    }
+    .gird-top
+    {
+      grid-template-columns: 1fr;
+    }
+    .gird-bt
+    {
+      grid-template-columns:1fr 1fr;
     }
   }
