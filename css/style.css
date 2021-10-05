@@ -20,45 +20,6 @@ nav {
 }
 
 
-.gird-top{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 16px;
-}
-.background1{
-  background: orange;
-}
-
-.main-grid{
-  width: 100%;
-}
-.gird-bt{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-gap: 16px;
-}
-.background2 {
-  background: gray;
-}
-
-/* footer */
-footer{
-  background: #000;
-  color: #fff;
-}
-footer ul{
-  display: flex;
-  
-}
-footer li{
-  padding: 10px;
-  list-style: none;
-}
-footer li a {
-  color: #fff;
-  text-decoration: none;
-}
-
 @media(max-width:995px) {
     .sign_up {
       margin-top: 10px;
