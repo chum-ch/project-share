@@ -25,3 +25,29 @@ nav {
       margin-top: 10px;
   }
 }
+img {
+  width: 200px;
+}
+h5 {
+  text-align: center;
+  padding: 20px;
+  background: gray;
+}
+/* .four-boxs {
+  display: grid;
+  grid-template-columns: repeat(4,fr);
+  grid-template-areas: 
+  'first-b' 'second-b' 'third-b' 'fourth-b';
+}
+.first-b {
+  grid-area: first-b;
+}
+.second-b {
+  grid-area: second-b;
+}
+.third-b {
+  grid-area: third-b;
+}
+.fourth-b {
+  grid-area: fourth-b;
+} */
