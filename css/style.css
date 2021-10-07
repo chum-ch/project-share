@@ -49,7 +49,7 @@ p{
   font-family: 'bayon',sans-serif;
   font-size: 20px;
   text-align: center;
-  margin-top: 10px;
+  
 }
 span{
   color: green;
@@ -65,18 +65,9 @@ span{
 }
 
 
-
-
-
-
-
-
-
-
-
 /* ----------------------------------------------------- */
 
-/* img {
+img {
   width: 200px;
 }
 h5 {
@@ -101,5 +92,5 @@ h5 {
 }
 .fourth-b {
   grid-area: fourth-b;
-} */
+}
 
