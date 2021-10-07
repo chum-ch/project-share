@@ -25,7 +25,28 @@ nav {
       margin-top: 10px;
   }
 }
-img {
+/* ------------------Kea------------------------- */
+.grid-box{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+}
+.box1
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+/* img {
   width: 200px;
 }
 h5 {
@@ -33,7 +54,7 @@ h5 {
   padding: 20px;
   background: gray;
 }
-/* .four-boxs {
+.four-boxs {
   display: grid;
   grid-template-columns: repeat(4,fr);
   grid-template-areas: 
