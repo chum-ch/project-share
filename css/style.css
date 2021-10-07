@@ -51,3 +51,16 @@ h5 {
 .fourth-b {
   grid-area: fourth-b;
 } */
+
+.cd{
+  
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+.box{
+  background: gray;
+  height: 50vh;
+
+}
