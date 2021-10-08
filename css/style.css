@@ -35,7 +35,7 @@ nav {
 
 .box1,.box2,.box3{
   height: 50vh;
-  margin: 10px 0px;
+  margin: 5px 0 20px 0;
   
 }
 
@@ -51,11 +51,12 @@ p{
   text-align: center;
   
 }
-span{
+b{
   color: green;
 }
 .box button{
-  font-family: 'bayon',sans-serif;
+  font-family: sans-serif;
+  margin: 5px 0 20px 0;
   font-size: 20px;
   color: #fff;
   border: none;
@@ -63,10 +64,94 @@ span{
   padding: 5px;
   width: 100%;
 }
+.box .fa,
+.box span{
+  position: absolute;
+ 
+
+}
+.box .fa-heart-o{
+  margin-top: 280px;
+  margin-left:-350px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.box span{
+  margin-top: 270px;
+  margin-left:-50px;
+  font-size: 30px;
+ 
+  
+}
+
 
 
 /* ----------------------------------------------------- */
+/* cham content*/
+.grid-parents{
+  height:120vh;
+  width: 100%;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+ gap:10px ;
+  margin: 15px 0px;
+}
+.child{
+ height:60vh;
+ 
 
+}
+.child-card{
+  width: 100%;
+  height: 60%;
+}
+.child-card img{
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.child .button{
+  width: 80%;
+  background:#0abf53;
+  border: none;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 50px;
+}
+.child p{
+  margin: 20px 0px;
+  font-size: 15px;
+}
+.btn-order{
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.child .fa,
+.child span{
+  position: absolute;
+
+}
+.child .fa-heart-o{
+  margin-top: 190px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.child span{
+  margin-top: 180px;
+  margin-left:210px;
+  font-size: 30px;
+  color: white;
+  
+}
+.child b{
+  color:#0abf53 ;
+ 
+}
 img {
   width: 200px;
 }
