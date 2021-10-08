@@ -53,8 +53,8 @@ nav {
   background-image: url(/img/food9.jpg);
 }
 
-p{
-  font-family:sans-serif;
+.box p{
+  font-family: 'bayon',sans-serif;
   font-size: 20px;
   text-align: center;
   
