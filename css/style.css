@@ -105,12 +105,38 @@ b{
 .child-card{
   width: 100%;
   height: 60%;
-}
-.child-card img{
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
   border-radius: 10px;
-  width: 100%;
-  height: 100%;
 }
+.card1{
+  background-image: url(../img/food11.jpg);
+}
+.card2{
+  background-image: url(../img/food12.jpg);
+}
+.card3{
+  background-image: url(../img/food13.jpg);
+}
+.card4{
+  background-image: url(../img/food14.jpg);
+
+}
+.card5{
+  background-image: url(../img/food15.jpg );
+}
+.card6{
+  background-image: url(../img/food20.jpg);
+}
+.card7{
+  background-image: url(../img/food7.jpg);
+}
+.card8{
+  background-image: url(../img/food18.jpg);
+}
+
+
 .child .button{
   width: 80%;
   background:#0abf53;
@@ -125,25 +151,20 @@ b{
 }
 .btn-order{
   width: 100%;
-
   display: flex;
   justify-content: center;
 }
-.child .fa,
-.child span{
-  position: absolute;
 
-}
-.child .fa-heart-o{
+.child-card .fa-heart-o{
   margin-top: 190px;
   margin-left: 10px;
   font-size: 30px;
   color: white;
   font-weight: bold;
 }
-.child span{
-  margin-top: 180px;
-  margin-left:210px;
+.child-card span{
+  
+  margin-left:190px;
   font-size: 30px;
   color: white;
   
@@ -152,6 +173,16 @@ b{
   color:#0abf53 ;
  
 }
+
+
+
+
+
+
+
+
+
+
 img {
   width: 200px;
 }
