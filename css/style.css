@@ -106,6 +106,28 @@ span{
   display: flex;
   justify-content: center;
 }
+.child .fa,
+.child span{
+  position: absolute;
+
+}
+.child .fa-heart-o{
+  margin-top: 190px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.child span{
+  margin-top: 180px;
+  margin-left:210px;
+  font-size: 30px;
+  
+}
+b{
+  color:#0abf53 ;
+  font-weight: normal;
+}
 img {
   width: 200px;
 }
