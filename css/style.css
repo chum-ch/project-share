@@ -19,12 +19,6 @@ nav {
   background-size: cover;
 }
 
-
-@media(max-width:995px) {
-    .sign_up {
-      margin-top: 10px;
-  }
-}
 /* ------------------Kea------------------------- */
 .grid-box{
   width: 100%;
@@ -90,7 +84,7 @@ b{
   width: 100%;
   display:grid;
   grid-template-columns: repeat(4,1fr);
- gap:10px ;
+  gap:10px ;
   margin: 15px 0px;
 }
 .child{
@@ -165,40 +159,21 @@ b{
 
 
 
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> 73c1a1a4b1caef8dc77a421207e66c27c0602250
 img {
   width: 200px;
 }
 h5 {
   text-align: center;
   padding: 20px;
-  background: gray;
 }
 .four-boxs {
   display: grid;
-  grid-template-columns: repeat(4,fr);
-  grid-template-areas: 
-  'first-b' 'second-b' 'third-b' 'fourth-b';
+  grid-template-columns: repeat(4,1fr);
 }
-.first-b {
-  grid-area: first-b;
-}
-.second-b {
-  grid-area: second-b;
-}
-.third-b {
-  grid-area: third-b;
-}
-.fourth-b {
-  grid-area: fourth-b;
-}
-
 
 
 .top{
@@ -269,3 +244,39 @@ img{
   background-size: cover;
 }
 /* ----------- */ 
+
+
+
+
+
+
+
+.food-sokha,
+.name {
+  display: flex;
+}
+.name input {
+  margin: 4px;
+  width: 50%;
+}
+.food-sokha form,
+.img-form {
+  width: 50%;
+}
+.food-sokha .img-form {
+  background: url("../img/food10.jpg");
+  background-size: cover;
+  height: 40vh;
+}
+
+@media(max-width:995px) {
+  .sign_up {
+    margin-top: 10px;
+}
+}
+
+@media(max-width:400px) {
+  .four-boxs {
+    display: block;
+}
+}
