@@ -36,16 +36,24 @@ nav {
 .box1,.box2,.box3{
   height: 50vh;
   margin: 5px 0 20px 0;
-  
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid rgb(230, 228, 228);
 }
 
-.box img{
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  border:1px solid rgb(238, 238, 238);
+.box1{
+  background-image: url(/img/food7.jpg);
 }
-p{
+.box2{
+  background-image: url(/img/food20.jpg);
+}
+.box3{
+  background-image: url(/img/food9.jpg);
+}
+
+.box p{
   font-family: 'bayon',sans-serif;
   font-size: 20px;
   text-align: center;
@@ -64,29 +72,17 @@ b{
   padding: 5px;
   width: 100%;
 }
-.box .fa,
-.box span{
-  position: absolute;
- 
-
-}
-.box .fa-heart-o{
-  margin-top: 280px;
-  margin-left:-350px;
-  font-size: 30px;
-  color: white;
-  font-weight: bold;
-}
-.box span{
+.box i{
   margin-top: 270px;
-  margin-left:-50px;
   font-size: 30px;
- 
-  
+  font-weight: bold;
+  margin-left: 10px;
+  color: #fff;
 }
-
-
-
+.box span{
+  font-size: 30px;
+  margin-left: 270px;
+}
 /* ----------------------------------------------------- */
 /* cham content*/
 .grid-parents{
@@ -99,17 +95,39 @@ b{
 }
 .child{
  height:60vh;
- 
-
 }
 .child-card{
   width: 100%;
   height: 60%;
-}
-.child-card img{
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
   border-radius: 10px;
-  width: 100%;
-  height: 100%;
+}
+.card1{
+  background-image: url(../img/food11.jpg);
+}
+.card2{
+  background-image: url(../img/food12.jpg);
+}
+.card3{
+  background-image: url(../img/food13.jpg);
+}
+.card4{
+  background-image: url(../img/food14.jpg);
+
+}
+.card5{
+  background-image: url(../img/food15.jpg );
+}
+.card6{
+  background-image: url(../img/food20.jpg);
+}
+.card7{
+  background-image: url(../img/food7.jpg);
+}
+.card8{
+  background-image: url(../img/food18.jpg);
 }
 .child .button{
   width: 80%;
@@ -121,37 +139,32 @@ b{
 }
 .child p{
   margin: 20px 0px;
-  font-size: 15px;
+  font-size: 17px;
 }
 .btn-order{
   width: 100%;
-
   display: flex;
   justify-content: center;
 }
-.child .fa,
-.child span{
-  position: absolute;
-
-}
-.child .fa-heart-o{
+.child-card .fa-heart-o{
   margin-top: 190px;
   margin-left: 10px;
   font-size: 30px;
   color: white;
   font-weight: bold;
 }
-.child span{
-  margin-top: 180px;
-  margin-left:210px;
+.child-card span{
+  margin-left:190px;
   font-size: 30px;
   color: white;
-  
 }
 .child b{
   color:#0abf53 ;
- 
 }
+
+
+
+
 img {
   width: 200px;
 }
