@@ -77,6 +77,37 @@ b{
   font-size: 30px;
   margin-left: 270px;
 }
+@media only screen and (max-width:768px){
+  .grid-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+  
+  .box span{
+    font-size: 30px;
+    margin: 0 0 0 380px;
+    
+  }
+  .box i{
+    margin-top: 320px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #fff;
+  }
+  .box1,.box2,.box3{
+    height: 60vh;
+    margin: 10px 0 20px 0;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(230, 228, 228);
+  }
+  
+}
 /* ----------------------------------------------------- */
 /* cham content*/
 .grid-parents{
@@ -88,7 +119,7 @@ b{
   margin: 15px 0px;
 }
 .child{
- height:60vh;
+  height:60vh;
 }
 .child-card{
   width: 100%;
